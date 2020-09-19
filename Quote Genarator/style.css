@@ -39,10 +39,17 @@ body {
 }
 
 .quote-author {
-    font-size: 2rem;
+    font-size: 2.75rem;
     margin-top: 15px;
     font-weight: 400;
     font-style: italic;
+}
+.quote-author:hover {
+    font-size: 3rem;
+    color: red;
+    font-weight: 400;
+    font-style: italic;
+    transform: translate(1.2rem,0);
 }
 .button-container {
     margin-top: 15px;
